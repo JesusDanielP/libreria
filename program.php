@@ -23,4 +23,18 @@
 
     // Mostrar el resultado
     echo "La suma de $numero1 y $numero2 es: $suma\n";
+
+    echo "La division es:\n";
+
+     // Solicitar el primer número
+     $numero1devi = solicitarNumero("Introduce el primer número: ");
+
+     // Solicitar el segundo número
+     $numero2devi = solicitarNumero("Introduce el segundo número: ");
+ 
+     // Realizar la suma
+     $division = $numero1devi + $numero2devi;
+ 
+     // Mostrar el resultado
+     echo "La suma de $numero1devi y $numero2devi es: $division\n";
 ?>
