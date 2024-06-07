@@ -36,6 +36,6 @@
     $resta = $numero1resta - $numero2resta;
 
     // Mostrar el resultado
-    echo "La suma de $numero1resta y $numero2resta es: $resta\n";
+    echo "La resta de $numero1resta y $numero2resta es: $resta\n";
 
 ?>
