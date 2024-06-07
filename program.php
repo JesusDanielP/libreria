@@ -36,5 +36,5 @@
     $multi = $numero1multi * $numero2multi;
 
     // Mostrar el resultado
-    echo "La suma de $numero1multi y $numero2multi es: $multi\n";
+    echo "La la multiplicacion de $numero1multi y $numero2multi es: $multi\n";
 ?>
