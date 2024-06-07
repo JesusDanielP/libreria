@@ -23,4 +23,18 @@
 
     // Mostrar el resultado
     echo "La suma de $numero1 y $numero2 es: $suma\n";
+
+    echo "Multpilicacion \n ";
+
+    // Solicitar el primer número
+    $numero1multi = solicitarNumero("Introduce el primer número: ");
+
+    // Solicitar el segundo número
+    $numero2multi = solicitarNumero("Introduce el segundo número: ");
+
+    // Realizar la suma
+    $multi = $numero1multi + $numero2multi;
+
+    // Mostrar el resultado
+    echo "La suma de $numero1multi y $numero2multi es: $multi\n";
 ?>
