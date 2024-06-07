@@ -23,4 +23,19 @@
 
     // Mostrar el resultado
     echo "La suma de $numero1 y $numero2 es: $suma\n";
+
+    echo "Ahora la resta\n";
+
+     // Solicitar el primer número
+     $numero1resta = solicitarNumero("Introduce el primer número: ");
+
+     // Solicitar el segundo número
+     $numero2resta = solicitarNumero("Introduce el segundo número: ");
+
+      // Realizar la resta
+    $resta = $numero1resta - $numero2resta;
+
+    // Mostrar el resultado
+    echo "La suma de $numero1resta y $numero2resta es: $resta\n";
+
 ?>
