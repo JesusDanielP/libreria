@@ -32,8 +32,8 @@
     // Solicitar el segundo número
     $numero2multi = solicitarNumero("Introduce el segundo número: ");
 
-    // Realizar la suma
-    $multi = $numero1multi + $numero2multi;
+    // Realizar la multiplicacion
+    $multi = $numero1multi * $numero2multi;
 
     // Mostrar el resultado
     echo "La suma de $numero1multi y $numero2multi es: $multi\n";
