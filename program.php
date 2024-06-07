@@ -24,6 +24,34 @@
     // Mostrar el resultado
     echo "La suma de $numero1 y $numero2 es: $suma\n";
 
+    echo "Ahora la resta\n";
+
+    // Solicitar el primer número
+    $numero1resta = solicitarNumero("Introduce el primer número: ");
+
+    // Solicitar el segundo número
+    $numero2resta = solicitarNumero("Introduce el segundo número: ");
+
+     // Realizar la resta
+   $resta = $numero1resta - $numero2resta;
+
+    // Mostrar el resultado
+    echo "La resta de $numero1resta y $numero2resta es: $resta\n";
+
+    echo "Ahora la multiplicacion\n";
+
+    // Solicitar el primer número
+    $numero1multi = solicitarNumero("Introduce el primer número: ");
+
+    // Solicitar el segundo número
+    $numero2multi = solicitarNumero("Introduce el segundo número: ");
+
+    // Realizar la multiplicacion
+    $multi = $numero1multi * $numero2multi;
+
+    // Mostrar el resultado
+    echo "La multiplicacion de $numero1multi y $numero2multi es: $multi\n";
+    
     echo "La division es:\n";
 
      // Solicitar el primer número
@@ -32,9 +60,9 @@
      // Solicitar el segundo número
      $numero2devi = solicitarNumero("Introduce el segundo número: ");
  
-     // Realizar la suma
-     $division = $numero1devi + $numero2devi;
+     // Realizar la division 
+     $division = $numero1devi / $numero2devi;
  
      // Mostrar el resultado
-     echo "La suma de $numero1devi y $numero2devi es: $division\n";
+     echo "La division de $numero1devi y $numero2devi es: $division\n";
 ?>
